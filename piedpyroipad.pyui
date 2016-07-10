@@ -1,0 +1,824 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Pied Pyro",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {767, 959}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "5665161F-346D-4D67-97D4-799E457C9510",
+          "name" : "background",
+          "action" : "background",
+          "class" : "Button",
+          "frame" : "{{344, 464}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/disc_32",
+          "title" : ""
+        },
+        "frame" : "{{600, 6}, {48, 46}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "name" : "videobutton",
+          "action" : "play_video",
+          "class" : "Button",
+          "frame" : "{{344, 464}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_videocam_32",
+          "uuid" : "5665161F-346D-4D67-97D4-799E457C9510"
+        },
+        "frame" : "{{656, 6}, {48, 46}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "AlNile-Bold",
+          "text" : "Queue",
+          "font_size" : 18,
+          "name" : "label1",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "uuid" : "0A4F955F-E9DD-4E9A-934A-579EA92DDF0D"
+        },
+        "frame" : "{{105, 153}, {71, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "AlNile-Bold",
+          "text" : "Fire Time",
+          "font_size" : 18,
+          "name" : "label1",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "uuid" : "0A4F955F-E9DD-4E9A-934A-579EA92DDF0D"
+        },
+        "frame" : "{{185, 153}, {99, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "text" : "Product Description",
+          "font_size" : 18,
+          "font_name" : "AlNile-Bold",
+          "name" : "label1",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "uuid" : "0A4F955F-E9DD-4E9A-934A-579EA92DDF0D"
+        },
+        "frame" : "{{298, 153}, {198, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "text" : "Module",
+          "font_size" : 18,
+          "font_name" : "AlNile-Bold",
+          "name" : "label1",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "uuid" : "0A4F955F-E9DD-4E9A-934A-579EA92DDF0D"
+        },
+        "frame" : "{{30, 153}, {72, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.000000,0.780899,0.000000,1.000000)",
+          "frame" : "{{150, 225}, {80, 32}}",
+          "border_color" : "RGBA(0.033708,0.033708,0.033708,1.000000)",
+          "font_size" : 15,
+          "title" : "Start Sequence",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_play_24",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "start_show_clock",
+          "font_bold" : true,
+          "alpha" : 1,
+          "corner_radius" : 0,
+          "border_width" : 3,
+          "uuid" : "8BB609E6-70CE-4F9A-923F-7A67E15DE55B",
+          "name" : "start_sequence_button",
+          "class" : "Button"
+        },
+        "frame" : "{{523, 752}, {213, 85}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "text" : "0:00:00.0",
+          "font_size" : 60,
+          "name" : "showclock",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "B392C719-8B26-4F87-8A11-713169C5B455"
+        },
+        "frame" : "{{243, 6}, {281, 72}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/alert_circled_24",
+          "title" : "      Arm System",
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "arm_system",
+          "font_bold" : true,
+          "name" : "arm_system_button",
+          "corner_radius" : 0,
+          "uuid" : "841F873E-ED9D-431F-B88B-B681E0B7DE12",
+          "border_width" : 3,
+          "class" : "Button"
+        },
+        "frame" : "{{30, 752}, {213, 85}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.038462,1.000000,0.038462,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/key_32",
+          "font_size" : 15,
+          "title" : " Disarm System",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "disarm_system",
+          "font_bold" : true,
+          "corner_radius" : 0,
+          "border_width" : 3,
+          "uuid" : "841F873E-ED9D-431F-B88B-B681E0B7DE12",
+          "name" : "disarm_system_button",
+          "class" : "Button"
+        },
+        "frame" : "{{30, 855}, {213, 85}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.307692,0.901099,1.000000,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_volume_high_32",
+          "font_size" : 15,
+          "title" : " Audio Test",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "test_audio",
+          "font_bold" : true,
+          "corner_radius" : 0,
+          "border_width" : 3,
+          "uuid" : "841F873E-ED9D-431F-B88B-B681E0B7DE12",
+          "name" : "audio_test_button",
+          "class" : "Button"
+        },
+        "frame" : "{{273, 752}, {213, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.115385,0.115385,1.000000)",
+          "frame" : "{{150, 225}, {80, 32}}",
+          "border_color" : "RGBA(0.033708,0.033708,0.033708,1.000000)",
+          "title" : " Stop Sequence",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_close_24",
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "stop_sequence",
+          "font_bold" : true,
+          "alpha" : 1,
+          "name" : "stop_sequence_button",
+          "corner_radius" : 0,
+          "uuid" : "8BB609E6-70CE-4F9A-923F-7A67E15DE55B",
+          "border_width" : 3,
+          "class" : "Button"
+        },
+        "frame" : "{{523, 855}, {213, 85}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(0.230337,0.669074,0.998127,1.000000)",
+          "frame" : "{{150, 225}, {80, 32}}",
+          "border_color" : "RGBA(0.033708,0.033708,0.033708,1.000000)",
+          "font_size" : 15,
+          "title" : "       Manual Fire",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_keypad_24",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "action" : "manual_fire",
+          "font_bold" : true,
+          "alpha" : 1,
+          "corner_radius" : 0,
+          "border_width" : 3,
+          "uuid" : "8BB609E6-70CE-4F9A-923F-7A67E15DE55B",
+          "name" : "manual_fire_button",
+          "class" : "Button"
+        },
+        "frame" : "{{273, 855}, {213, 85}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "tint_color" : "RGBA(0.099395,0.861423,0.099395,1.000000)",
+          "text" : "System Status: SAFE",
+          "font_size" : 20,
+          "name" : "status_label",
+          "text_color" : "RGBA(0.066263,0.861423,0.066263,1.000000)",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "BAAAE885-4EDB-41BF-BC4F-BFAFEC82F2FC"
+        },
+        "frame" : "{{30, 73}, {364, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "tint_color" : "RGBA(0.099395,0.861423,0.099395,1.000000)",
+          "text" : "Audio Loaded: PyroTrack15.mp3",
+          "font_size" : 20,
+          "name" : "audio_loaded_label",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "BAAAE885-4EDB-41BF-BC4F-BFAFEC82F2FC"
+        },
+        "frame" : "{{30, 113}, {364, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "background_color" : "RGBA(0.971910,0.971910,0.971910,1.000000)",
+          "frame" : "{{92, 197}, {200, 200}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "data_source_number_of_lines" : 3,
+          "row_height" : 44,
+          "flex" : "HLRTB",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "data_source_items" : "\n",
+          "data_source_delete_enabled" : false,
+          "data_source_move_enabled" : false,
+          "editing" : false,
+          "corner_radius" : 0,
+          "border_width" : 0,
+          "uuid" : "2C2C8F6A-B239-40AB-A5FD-E8EC7CE8FEC7",
+          "data_source_font_size" : 18,
+          "name" : "firing_times",
+          "class" : "TableView"
+        },
+        "frame" : "{{30, 184}, {706, 550}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "manualfireview",
+          "corner_radius" : 0,
+          "border_width" : 5,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "View",
+          "frame" : "{{142, 247}, {100, 100}}",
+          "custom_class" : "",
+          "uuid" : "FFB95AB5-F92F-447A-92C8-D62E3D48623C"
+        },
+        "frame" : "{{51, 41}, {665, 775}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "title" : "",
+          "name" : "exit_manual_fire_button",
+          "action" : "exit_manual_fire",
+          "class" : "Button",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/close_32",
+          "uuid" : "9025D3DF-F9F0-4341-B3F0-D88E7D3CDA03"
+        },
+        "frame" : "{{674, 41}, {42, 44}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Manual Firing Dashboard",
+          "font_size" : 20,
+          "name" : "manual_fire_label",
+          "alignment" : "left",
+          "class" : "Label",
+          "frame" : "{{117, 281}, {150, 32}}",
+          "uuid" : "18415564-A273-4143-927E-6298C142216A"
+        },
+        "frame" : "{{262, 53}, {236, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "15",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_15",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire15",
+          "class" : "Button"
+        },
+        "frame" : "{{421, 711}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "6",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_6",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire6",
+          "class" : "Button"
+        },
+        "frame" : "{{262, 369}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "flex" : "LR",
+          "segments" : "Module 1|Module 2|Module 3|Module 4",
+          "name" : "module_segment_control",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "SegmentedControl",
+          "frame" : "{{132, 283}, {120, 29}}",
+          "background_color" : "RGBA(1.000000,0.020833,0.020833,1.000000)",
+          "uuid" : "96BB2176-C6F8-4262-BFA9-D403D3E75EAE"
+        },
+        "frame" : "{{75, 103}, {614, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "11",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_11",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire11",
+          "class" : "Button"
+        },
+        "frame" : "{{423, 540}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "10",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_10",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire10",
+          "class" : "Button"
+        },
+        "frame" : "{{262, 540}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "2",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_2",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire2",
+          "class" : "Button"
+        },
+        "frame" : "{{262, 195}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "3",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_3",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire3",
+          "class" : "Button"
+        },
+        "frame" : "{{423, 195}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "1",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_1",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire1",
+          "class" : "Button"
+        },
+        "frame" : "{{101, 195}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "14",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_14",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire14",
+          "class" : "Button"
+        },
+        "frame" : "{{262, 711}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "4",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_4",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire4",
+          "class" : "Button"
+        },
+        "frame" : "{{594, 195}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "8",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_8",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire8",
+          "class" : "Button"
+        },
+        "frame" : "{{594, 369}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "16",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_16",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire16",
+          "class" : "Button"
+        },
+        "frame" : "{{594, 711}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "13",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_13",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire13",
+          "class" : "Button"
+        },
+        "frame" : "{{101, 711}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.062500,0.062500,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "12",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_12",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire12",
+          "class" : "Button"
+        },
+        "frame" : "{{594, 540}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "5",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_5",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire5",
+          "class" : "Button"
+        },
+        "frame" : "{{101, 369}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "7",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_7",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire7",
+          "class" : "Button"
+        },
+        "frame" : "{{423, 369}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,0.038462,0.038462,1.000000)",
+          "frame" : "{{152, 281}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "title" : "9",
+          "font_size" : 30,
+          "tint_color" : "RGBA(0.161049,0.161049,0.161049,1.000000)",
+          "action" : "fire_9",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "uuid" : "5361DE46-2B5D-4F38-98D1-4036EBD66390",
+          "name" : "fire9",
+          "class" : "Button"
+        },
+        "frame" : "{{101, 540}, {75, 75}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "Button",
+          "name" : "button1",
+          "action" : "connection_check",
+          "class" : "Button",
+          "frame" : "{{344, 464}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/connection_bars_256",
+          "uuid" : "EAC2DEFF-B103-4980-9C1F-CB1BBCA05069"
+        },
+        "frame" : "{{712, 6}, {49, 46}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "5665161F-346D-4D67-97D4-799E457C9510",
+          "name" : "videobut",
+          "action" : "play_music",
+          "class" : "Button",
+          "frame" : "{{344, 464}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/ios7_musical_notes_32",
+          "title" : ""
+        },
+        "frame" : "{{544, 6}, {48, 46}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
